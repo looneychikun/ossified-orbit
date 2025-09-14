@@ -4,7 +4,14 @@ import Social from './Social.astro';
 
 <footer>
   <p>Learn more about my projects on</p>
-  <ul>
-    <li><Social platform="github" username="looneychikun" /></li>
-  </ul>
+  <Social platform="github" username="looneychikun" />
+  <Social platform="twitter" username="looneychikun" />
 </footer>
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>

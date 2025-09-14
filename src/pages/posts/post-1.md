@@ -1,4 +1,5 @@
 ---
+layout: '../../layouts/BlogLayout.astro'
 title: 'My First Blog Post'
 pubDate: 2025-09-12
 description: 'Learning some shit.'
@@ -9,4 +10,5 @@ image:
 tags: ['astro', 'blogging', 'learning in public']
 ---
 
-# My First Blog
+### Gettin used to it
+Figuring out how all _this_ works.
