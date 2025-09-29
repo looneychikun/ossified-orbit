@@ -1,5 +1,8 @@
 html {
-  background-color: #10052e;
+  background-color: #808080; /* Fallback gray */
+  background-image: linear-gradient(to bottom, #008000, #808080);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: arial, helvetica;
   color: rgb(190, 190, 190);
 }
