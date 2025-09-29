@@ -1,0 +1,28 @@
+---
+const { tags } = Astro.props;
+---
+
+<div class="tag-list">
+  { tags.map((tag: string) => 
+    <p class="tag-item"><a href={`/tags/${tag}`}>{tag}</a></p>
+  )}
+</div>
+
+<style>
+  a {
+    color: #000b9f;
+  }
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tag-item {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: .5em;
+    padding: .5em 1em;
+    font-size: 1.15em;
+    background-color: #F8FCFD;
+  }
+</style>
